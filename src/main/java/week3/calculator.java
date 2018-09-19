@@ -1,44 +1,47 @@
 package week3;
 
+import java.util.Scanner;
+
 public class calculator {
 
-    double num1;
-    double num2;
 
 
-    public calculator(double num1, double num2) {
-        this.num1 = num1;
-        this.num2 = num2;
+
+
+
+    public calculator() {
+
 
     }
 
-    public double plus(){
+    public double plus(double num1, double num2){
         return num1 + num2;
     }
-    public double subtract(){
+
+    public double subtract(double num1, double num2){
        return num1 - num2;
     }
-    public double multiply(){
+    public double multiply(double num1, double num2){
         return num1 * num2;
     }
-    public double divide(){
+    public double divide(double num1, double num2){
         return num1 / num2;
     }
-    public double square(){
+    public double square(double num1){
         return num1 * num1;
     }
 
-    public double sqroot(){
+    public double sqroot(double num1){
         return Math.sqrt(num1);
     }
 
-    public double power(){
+    public double power(double num1, double num2){
         return Math.pow(num1,num2);
     }
-    public double sin(){
+    public double sin(double num1){
         return Math.sin((Math.toRadians(num1)));
     }
-    public double cos(){
+    public double cos(double num1){
         return Math.cos((Math.toRadians(num1)));
     }
 
